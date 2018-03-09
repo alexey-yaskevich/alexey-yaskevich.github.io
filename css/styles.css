@@ -1,0 +1,233 @@
+/*Сетка*/
+body {
+    background-color: #ccc;
+}
+
+#wrapper {
+    width: 1100px;
+    height: auto;
+    margin: auto;    
+    background-color: #2b3740;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+}
+
+#header img {
+    width: 100%;
+}
+
+#content {
+    width: 80%;
+    height: auto;
+    margin: 0 10%;
+}
+
+#nav {
+    width: 200px;
+    height: 670px;
+    float: left;
+    margin-top: 20px;
+}
+
+#nav ul {
+    height: 500px;
+}
+
+#nav img {
+    width: 100%;
+}
+
+#map {
+    margin-top: 20px;
+    width: 200px;
+    height: 225px;
+}
+
+#map img{
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: calc(100% - 200px);
+    float: right;
+}
+
+#footer {
+    width: 80%;
+    margin: 0 10%;
+    padding-top: 20px;    
+    clear: both;
+}
+
+#nav ul, #main_title, .small_card, .big_card {
+    background-color: skyblue;
+}
+
+/*Навигация*/
+ul{
+    padding: 0; margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li:nth-child(n+2) {
+    padding: 20px;
+}
+
+ul li:nth-child(n+2):hover {
+    background-color: rgba(111, 222, 0, 0.4);
+}
+
+/*Ссылки*/
+a, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+table a {
+    padding-left: 27px;
+    width: auto;
+    background-image: url(images/Button.jpg);
+    background-repeat: no-repeat;
+    background-size: 17px 17px;  
+}
+
+/*Текст*/
+*{
+    font-family: Trebushed, Helvetica
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+h2{
+    margin-top: 0;
+}
+
+small{
+    color:#227dad;
+    font-weight: bold;
+    font–size: 60%;
+}
+
+p{
+    height: 100px;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+/*Таблица*/
+
+table {
+    border-spacing: 20px;
+} 
+
+.small_card{
+    width: 200px;
+    border-bottom: 5px solid #227dad;
+    padding: 0;
+    margin: 0;
+}
+
+.small_card img{
+    width: 205px;
+    height: 160px;
+}
+
+/*Формы*/
+
+.big_card img{
+    width: 300px;
+    float: left;
+}
+
+form{
+    width: calc(100% - 300px);
+    float: right;
+}
+
+fieldset{
+    border: none;
+    padding; 0 20px;
+}
+
+input, select {
+    padding-left: 20px;
+    background-color: rgb(232, 234, 187);
+    border-style: none;
+    height: 30px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+}
+
+select {
+    width: 100%;
+}
+
+
+input[type=submit] {
+    color: #e5eef4;
+    background-color: #3be64e;
+    width: 100%;
+    padding-left: 27px;
+    background-image: url("/images/Button-2.jpg")
+    background–repead: no-repeat;
+    background–position: 5px;
+    background–size: 17 px 17 px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
